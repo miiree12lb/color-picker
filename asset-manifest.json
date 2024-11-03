@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/color-picker/static/css/main.31d6cfe0.css",
-    "main.js": "/color-picker/static/js/main.8e4ddd0e.js",
+    "main.css": "/color-picker/static/css/main.f4ca96c2.css",
+    "main.js": "/color-picker/static/js/main.cefa08ba.js",
     "index.html": "/color-picker/index.html",
-    "main.8e4ddd0e.js.map": "/color-picker/static/js/main.8e4ddd0e.js.map"
+    "main.f4ca96c2.css.map": "/color-picker/static/css/main.f4ca96c2.css.map",
+    "main.cefa08ba.js.map": "/color-picker/static/js/main.cefa08ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.8e4ddd0e.js"
+    "static/css/main.f4ca96c2.css",
+    "static/js/main.cefa08ba.js"
   ]
 }
