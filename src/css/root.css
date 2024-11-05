@@ -133,4 +133,7 @@ input[type=color]{
     #output-area, #input-area{
         width: 70vw;
     }
+    #output-area {
+        margin-bottom: 40px;
+    }
 }

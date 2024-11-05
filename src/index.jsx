@@ -68,6 +68,7 @@ function Root() {
         if (colorSet.size !== baseColors.length) {
             setErrorMessage('Please select unique colors');
             setShowAlert(true);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
             setTimeout( () => {setShowAlert(false)}, 8000);
             return;
         }
