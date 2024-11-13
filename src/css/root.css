@@ -15,7 +15,14 @@ button {
     background-color: #94692d;
     padding: 10px;
     border-radius: 20px;
-    margin-top:20px
+    margin-top:20px;
+    color: black;
+}
+button:disabled {
+    background-color: #e0e0e0; /* Optional: change the background color */
+    color: gray; /* Change the text color to gray */
+    cursor: not-allowed;
+    opacity: 0.6; /* Optional: make it semi-transparent */
 }
 button:hover{
     cursor: pointer;
