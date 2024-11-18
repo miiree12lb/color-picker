@@ -126,6 +126,24 @@ input[type=color]{
     margin-bottom: 20px;
 }
 
+#footer{
+    margin-top: auto;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #94692d;
+}
+#footer-text {
+    text-align: center;
+}
+#footer-logo-image {
+    width: 100px;
+    height: auto;
+}
+
 @media screen and (max-width: 1112px) {
     #output-area, #input-area{
         width: 50vw;

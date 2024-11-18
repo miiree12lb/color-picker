@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/color-picker/static/css/main.b0269722.css",
-    "main.js": "/color-picker/static/js/main.268d1da1.js",
+    "main.css": "/color-picker/static/css/main.18b72693.css",
+    "main.js": "/color-picker/static/js/main.f6f3ed3e.js",
+    "static/media/logo.png": "/color-picker/static/media/logo.41cfb9e489f010ce62b5.png",
+    "static/media/instagram.svg": "/color-picker/static/media/instagram.f1b93ec68f3f311e5c68d6085a9b479c.svg",
     "index.html": "/color-picker/index.html",
-    "main.b0269722.css.map": "/color-picker/static/css/main.b0269722.css.map",
-    "main.268d1da1.js.map": "/color-picker/static/js/main.268d1da1.js.map"
+    "static/media/linkedin.svg": "/color-picker/static/media/linkedin.3f6d644cac1e5dd5bb4675ccea3d9ff3.svg",
+    "main.18b72693.css.map": "/color-picker/static/css/main.18b72693.css.map",
+    "main.f6f3ed3e.js.map": "/color-picker/static/js/main.f6f3ed3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0269722.css",
-    "static/js/main.268d1da1.js"
+    "static/css/main.18b72693.css",
+    "static/js/main.f6f3ed3e.js"
   ]
 }

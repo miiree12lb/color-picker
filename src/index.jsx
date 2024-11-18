@@ -3,8 +3,10 @@ import { createRoot } from "react-dom/client";
 import chroma from 'chroma-js';
 import ColorPicker from './ColorPicker.jsx';
 import PaletteDisplay from './PaletteDisplay.jsx';
+import { BrowserRouter } from "react-router-dom";
 // @ts-ignore
 import './css/root.css';
+import Footer from "./Footer.jsx";
 
 function Root() {
     const [baseColors, setBaseColors] = useState(['#3498db']);
@@ -98,7 +100,7 @@ function Root() {
     }
 
     return (
-        <>
+        <BrowserRouter>
             {showAlert && (
                 <div className="alert">
                     <span className="closebtn" onClick={() => setShowAlert(false)}>&times;</span> 
@@ -145,7 +147,11 @@ function Root() {
                     ) : null}
                 </div>
             </div>
-        </>
+
+            <div id="footer">
+                <Footer />
+            </div>
+        </BrowserRouter>
     );
 }
 
